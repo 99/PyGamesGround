@@ -97,5 +97,5 @@ ENV/
 
 .gitignore
 .idea/
-Image.png
+image.png
 python.png
