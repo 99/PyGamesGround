@@ -9,13 +9,13 @@ speed = [4, 4]
 
 game_display = pg.display.set_mode(display)
 pg.display.set_caption('Unicornio')
-unicorn = pg.image.load("image.png")
+unicorn_img = pg.image.load("image.png")
 
 clock = pg.time.Clock()
 
 
 def unicron(x, y):
-    game_display.blit(unicorn, display)
+    game_display.blit(unicorn_img, display)
 
 x =  (display_width * 0.45)
 y = (display_height * 0.8)
