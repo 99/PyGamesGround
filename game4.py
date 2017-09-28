@@ -20,13 +20,12 @@ def unicron(x, y):
 x =  (display_width * 0.45)
 y = (display_height * 0.8)
 x_change = 0
-car_speed = 0
+unicorn_speed = 0
 
 while not crashed:
     for event in pg.event.get():
         if event.type == pg.QUIT:
             crashed = True
-
         if event.type == pg.KEYDOWN:
             if event.key == pg.K_LEFT:
                 x_change = - 5
