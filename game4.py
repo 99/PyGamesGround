@@ -20,7 +20,6 @@ def unicron(x, y):
 x =  (display_width * 0.45)
 y = (display_height * 0.8)
 x_change = 0
-unicorn_speed = 0
 
 while not crashed:
     for event in pg.event.get():
